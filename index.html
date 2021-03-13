@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>1:1 Conversation Topic Picker</title>
+<link rel="stylesheet" href="style.css">
+<script type="text/javascript" src="topics.js"></script>
+<script type="text/javascript">
+function random_item(items) {
+  return items[Math.floor(Math.random()*items.length)];     
+}
+
+function getTopic(category) {
+  document.getElementById('card').style.display = 'block';
+  document.getElementById('cardtitle').innerText = category;
+  document.getElementById('cardtext').innerText = random_item(topics[category]);
+};
+</script>
+</head>
+<body>
+
+<div class="card" id="card" style="display: none;">
+  <div class="cardheader">
+    <h1 id="cardtitle"></h1>
+  </div>
+  <p id="cardtext"></p>
+</div>
+
+<h2 class="center">Draw a new card:</h2>
+<button type="button" id="spin" onclick="getTopic('Manager Improvement')">Manager Improvement</button>
+<button type="button" id="spin" onclick="getTopic('Self Improvement')">Self Improvement</button>
+
+</body>
+</html>
