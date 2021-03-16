@@ -16,3 +16,5 @@ You can use Docker to run the application in a local web browser using Alpine an
 * run `docker run -p 8080:80 topic-picker` (optional) add `-d` to run in detached mode
 * Open your web browser
 * Visit `http://127.0.0.1:8080/` to see the app in action
+
+If you have any feedback, please open an issue!
