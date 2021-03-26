@@ -11,6 +11,14 @@ function random_item(items) {
 }
 
 function getTopic(category) {
+  const rbs = document.querySelectorAll('input[name="radio"]');
+  for (const rb of rbs) {
+    if (rb.checked) {
+      category = rb.value;
+      break;
+    }
+  }
+  
   document.getElementById('card').style.display = 'block';
   document.getElementById('cardtitle').innerText = category;
   document.getElementById('cardtext').innerText = random_item(topics[category]);
@@ -26,9 +34,13 @@ function getTopic(category) {
   <p id="cardtext"></p>
 </div>
 
-<h2 class="center">Draw a new card:</h2>
-<button type="button" id="spin" onclick="getTopic('Manager Improvement')">Manager Improvement</button>
-<button type="button" id="spin" onclick="getTopic('Self Improvement')">Self Improvement</button>
+<div class="container">
+  <h2 class="center">Categories</h2>  
+  <input type="radio" checked="checked" name="radio" value="Manager Improvement">Manager Improvement<br />
+  <input type="radio" name="radio" value="Self Improvement">Self Improvement
+  <button type="button" id="spin" onclick="getTopic()">Draw a Card</button>
+</div>
+
 
 </body>
 </html>

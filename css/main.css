@@ -6,6 +6,11 @@ body {
 
 }
 
+.container {
+  width: 200px;
+  margin: auto;
+}
+
 .center {
   text-align: center; 
 }
@@ -25,7 +30,7 @@ p#cardtext {
 }
 
 .cardheader {
-  background-color: purple;
+  background-color: #264653;
   box-shadow: 0 0px 8px 0 rgba(0,0,0,0.2);
   width: 100%;
   border-radius: 10px 10px 0px 0px;
@@ -47,11 +52,10 @@ p#cardtext {
 }
 
 button {
-  background-color: #4CAF50; /* Green */
+  background-color: #2a9d8f;
   border: none;
   color: white;
   padding: 15px 32px;
-  text-align: center;
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
