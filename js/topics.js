@@ -40,7 +40,11 @@ var topics = {
     "How many hours a day do you feel you're productive? How could we help you be more productive?",
     "How could we be more creative or innovative as a company?"    
   ],
+  "Short Term Goals": [
+    "How is [project] going? What could we do to make it better?",
+    "Is there anything blocking you from getting your work done?",
+    "Are there any projects you'd really like to work on if you were given the opportunity?",
+    "What parts of your job would you like to deepen your skills in or get additional training in?",
+    "Is any part of your project unclear or confusing?"
+  ]
 };
-
-
-
