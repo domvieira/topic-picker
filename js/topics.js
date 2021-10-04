@@ -46,5 +46,9 @@ var topics = {
     "Are there any projects you'd really like to work on if you were given the opportunity?",
     "What parts of your job would you like to deepen your skills in or get additional training in?",
     "Is any part of your project unclear or confusing?"
+  ],
+  "Long Term Goals": [
+    "What do you want to be doing in 5 years?",
+    "Do you feel like you're making progress on your big goals here? Why or why not?"
   ]
 };
