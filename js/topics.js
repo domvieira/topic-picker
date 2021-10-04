@@ -49,6 +49,11 @@ var topics = {
   ],
   "Long Term Goals": [
     "What do you want to be doing in 5 years?",
-    "Do you feel like you're making progress on your big goals here? Why or why not?"
+    "Do you feel like you're making progress on your big goals here? Why or why not?",
+    "Do you feel we're helping you advance your career at a pace you would like?",
+    "What are your super powers? What powers would you like to develop?",
+    "What are your big dreams in life? Are you making progress on them?",
+    "Could you see yourself making progress on more of your goals here? What would need to change to do so?",
+    "What work are you doing here that you feel is most in line with your long term goals?" 
   ]
 };
